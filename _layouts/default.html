@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<!-- SITE TITTLE -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Kings Spa - Vanuatu">
+    <meta name="description" content="Chinesse Day Spa right in the heart of Port Vila. We specialize in Aroma Oil Massage, Back Head & Shoulder Massage, Chinese Massage, Cupping, Therapy Massage, European Massage, Foot Massage, Hot Stone Massage, Korean Massage, Scrapping Therapy and Thai Aroma Massage">
+	<meta name="keywords" content="King Spa, King Spa Vanuatu, King Spa - Vanuatu, Vanuatu Spa King, Vanuatu Spa, Spa, Port Vila Spa, Massage Spa, Massage, Day Spa">
+
+    <title>King Spa | {{page.title}}</title>
+
+	<!-- PLUGINS CSS STYLE -->
+	<link href="{{site.baseurl}}/plugins/jquery-ui/jquery-ui.min.css" rel="stylesheet">
+	<link href="{{site.baseurl}}/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="{{site.baseurl}}/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link href="{{site.baseurl}}/plugins/selectbox/select_option1.css" rel="stylesheet">
+	<link href="{{site.baseurl}}/plugins/slick/slick.css" rel="stylesheet" media="screen">
+	<link href="{{site.baseurl}}/plugins/slick/slick-theme.css" rel="stylesheet" media="screen">
+	<link href="{{site.baseurl}}/plugins/prismjs/prism.css" rel="stylesheet">
+	<link href="{{site.baseurl}}/plugins/fancybox/jquery.fancybox.min.css" rel="stylesheet" />
+	<link href="{{site.baseurl}}/plugins/selectbox/select_option1.css" rel="stylesheet">
+	<link href="{{site.baseurl}}/plugins/isotope/isotope.min.css" rel="stylesheet">
+	<link href="{{site.baseurl}}/plugins/animate.css" rel="stylesheet">
+	<link href="{{site.baseurl}}/plugins/datepicker/datepicker.min.css" rel="stylesheet">
+
+	<!-- CUSTOM CSS -->
+	<link href="{{site.baseurl}}/css/style.css" rel="stylesheet">
+	<link href="{{site.baseurl}}/css/default.css" id="option_color" rel="stylesheet" >
+	<!-- FAVICON -->
+	<link href="{{site.baseurl}}/img/favicon.png" rel="shortcut icon">
+
+{% include analytics.html %}
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+    
+</head>
+
+<body id="body" class="boxed default">
+
+{% include header.html %}
+    
+	<div class="main-wrapper home  home-message">
+
+{{content}}
+
+{% include footer.html %}
+        
+	</div>
+
+{% include scripts.html %}
+</body>
+
+</html>

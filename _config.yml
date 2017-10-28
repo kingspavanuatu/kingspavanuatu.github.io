@@ -1,0 +1,5 @@
+baseurl: 
+exclude: ['README.MD', '_site']
+url: "http://kingspa.vu"
+plugins:
+  - jekyll-sitemap
